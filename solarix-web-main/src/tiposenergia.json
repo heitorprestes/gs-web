@@ -1,0 +1,89 @@
+{
+    "energyTypes": [
+      {
+        "name": "Eólica",
+        "description": "Energia gerada a partir do vento utilizando turbinas para converter o movimento do ar em eletricidade.",
+        "impactoAmbiental": {
+          "positivo": "Redução de emissões de gases de efeito estufa e poluição do ar.",
+          "negativo": "Impacto visual e sonoro, e possível ameaça à fauna local (como aves)."
+        },
+        "custo": {
+          "investimentoInicial": "Moderado a alto, dependendo da escala do projeto.",
+          "manutencao": "Baixo, com manutenção regular das turbinas.",
+          "custosOperacionais": "Baixo, uma vez que o vento é uma fonte gratuita."
+        },
+        "acessibilidade": "Alta em regiões com ventos constantes, como áreas costeiras e montanhosas. Requer grandes áreas de terreno."
+      },
+      {
+        "name": "Solar",
+        "description": "Energia gerada a partir da luz do sol, convertida em eletricidade por painéis solares fotovoltaicos.",
+        "impactoAmbiental": {
+          "positivo": "Emissões muito baixas de gases de efeito estufa durante a operação.",
+          "negativo": "Uso de materiais raros e tóxicos para fabricação dos painéis, e ocupação de grandes áreas para grandes instalações solares."
+        },
+        "custo": {
+          "investimentoInicial": "Moderado, mas caiu significativamente nos últimos anos.",
+          "manutencao": "Baixo, com pouca necessidade de manutenção além da limpeza ocasional.",
+          "custosOperacionais": "Baixo, com o sol como recurso gratuito."
+        },
+        "acessibilidade": "Alta em regiões ensolaradas, como desertos e áreas tropicais. Pode ser instalado em pequenas ou grandes escalas."
+      },
+      {
+        "name": "Hidrelétrica",
+        "description": "Energia gerada a partir do movimento da água, geralmente em grandes represas, convertendo a energia potencial da água em eletricidade.",
+        "impactoAmbiental": {
+          "positivo": "Fonte de energia estável e controlável, ideal para geração em larga escala.",
+          "negativo": "Impacto ambiental significativo, incluindo a submersão de grandes áreas de terra e destruição de ecossistemas aquáticos e terrestres."
+        },
+        "custo": {
+          "investimentoInicial": "Muito alto, devido à construção da represa e infraestrutura necessária.",
+          "manutencao": "Moderado, com manutenção das instalações e controle da água.",
+          "custosOperacionais": "Baixo, após a construção inicial, com custos de operação controlados."
+        },
+        "acessibilidade": "Requer grandes corpos d'água e áreas com potencial para represas, nem sempre disponível em regiões densamente povoadas."
+      },
+      {
+        "name": "Biomassa",
+        "description": "Energia gerada a partir da queima de materiais orgânicos, como resíduos agrícolas, madeira ou lixo orgânico.",
+        "impactoAmbiental": {
+          "positivo": "Utilização de resíduos, reduzindo a necessidade de aterros sanitários e poluição do solo.",
+          "negativo": "Emissões de CO2 durante a queima e a necessidade de grandes áreas para cultivo de matérias-primas."
+        },
+        "custo": {
+          "investimentoInicial": "Moderado, dependendo da escala do projeto e da fonte de biomassa.",
+          "manutencao": "Moderado, com custos relacionados à coleta e transporte da biomassa.",
+          "custosOperacionais": "Moderado, com custos de operação relacionados ao combustível e à queima."
+        },
+        "acessibilidade": "Alta, pois pode ser implantada em áreas com resíduos agrícolas ou florestais. Necessita de uma logística de coleta eficiente."
+      },
+      {
+        "name": "Geotérmica",
+        "description": "Energia gerada a partir do calor proveniente do interior da Terra, utilizado para aquecer água ou gerar eletricidade.",
+        "impactoAmbiental": {
+          "positivo": "Baixo impacto ambiental, com pouca emissão de gases de efeito estufa.",
+          "negativo": "Uso de recursos hídricos e possível liberação de gases subterrâneos tóxicos."
+        },
+        "custo": {
+          "investimentoInicial": "Alto, devido à perfuração de poços e construção de plantas geotérmicas.",
+          "manutencao": "Moderado, com manutenção dos poços e da infraestrutura de extração.",
+          "custosOperacionais": "Moderado, com custos de operação relacionados à manutenção dos sistemas."
+        },
+        "acessibilidade": "Limita-se a áreas com atividade geotérmica significativa, como regiões vulcânicas ou com fontes termais."
+      },
+      {
+        "name": "Ondas",
+        "description": "Energia gerada a partir do movimento das ondas do mar, convertida em eletricidade através de dispositivos flutuantes ou submersos.",
+        "impactoAmbiental": {
+          "positivo": "Redução de emissões de gases de efeito estufa e aproveitamento de um recurso natural abundante.",
+          "negativo": "Impacto potencial na fauna marinha e risco de degradação de ecossistemas costeiros."
+        },
+        "custo": {
+          "investimentoInicial": "Muito alto, devido à tecnologia emergente e à instalação no mar.",
+          "manutencao": "Elevado, com custos relacionados à manutenção de estruturas submersas e resistência ao ambiente marítimo.",
+          "custosOperacionais": "Moderado, com a energia das ondas sendo um recurso gratuito."
+        },
+        "acessibilidade": "Limitada a áreas costeiras com potencial para grandes ondas. Requer infraestrutura tecnológica especializada."
+      }
+    ]
+  }
+  
